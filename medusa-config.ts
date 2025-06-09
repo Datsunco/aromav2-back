@@ -18,5 +18,8 @@ module.exports = defineConfig({
     {
       resolve: "./src/modules/banner",
     },
+    {
+      resolve: "./src/modules/event",
+    },
   ],
 });
