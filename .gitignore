@@ -5,6 +5,8 @@
 /node_modules
 yarn-error.log
 
+src/admin/lib/config.ts
+
 .idea
 
 coverage

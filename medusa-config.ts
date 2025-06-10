@@ -13,6 +13,15 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
+  admin: {
+    vite: () => {
+      return {
+        server: {
+          allowedHosts: ["admin.aroma-vdohnovenie.ru"],
+        },
+      }
+    },
+  },
   modules: [
     // ... другие модули
     {
